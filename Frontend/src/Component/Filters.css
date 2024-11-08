@@ -1,0 +1,32 @@
+.restaurant-list{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+    flex-wrap: wrap;
+}
+.restaurant-list>.filters>h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.filters>div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0 80px 0 30px;
+    background-color: rgb(196, 197, 193);
+}
+.restaurant-image{
+    height: 10rem;
+    border:2px solid black ;
+    max-width: 100%;
+}
+.restaurant-card{
+    border: 1px solid black;
+    height: fit-content;
+    padding: 5px 30px;
+    background-color: rgb(196, 1    97, 193);
+    margin-top: 10%;
+    display: flex;
+    text-align: end;
+    margin-bottom: 30px;
+    
+}
